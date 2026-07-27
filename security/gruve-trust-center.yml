@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.gruve.ai/
+url: https://trust.gruve.ai/
+platform: SafeBase by Drata
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- ISO/IEC 42001:2023
+documents:
+- Acceptable Use Policy
+- Access Control Policy
+- Asset Management Policy
+- Backup Policy
+- Business Continuity / Disaster Recovery Policy
+- Change Management Policy
+- Code of Conduct Policy
+- Network Security Policy
+- Incident Reporting Process
+- Incident Response Procedures
+sections:
+- product security
+- data security
+- app security
+- AI security
+- infrastructure
+- endpoint security
+- network security
+- corporate security
+- risk management
+- continuous monitoring
+evidence:
+- source: https://trust.gruve.ai/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - iso/iec 42001:2023
+  - trust center
+  - safebase

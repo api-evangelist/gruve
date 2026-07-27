@@ -1,19 +1,51 @@
 aid: gruve
 name: Gruve
-description: Gruve is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gruve Inc. is an AI-driven enterprise services and technology company that helps
+  large organizations adopt and secure artificial intelligence. Its portfolio spans
+  private AI infrastructure (PulseAI, deployable in under two weeks for data
+  sovereignty), AI-powered cybersecurity (AI SOC, digital forensics and incident
+  response, and managed AI security services), Data & AI strategy and infrastructure,
+  and Customer Experience delivered on Salesforce. Gruve targets enterprises of roughly
+  5,000 to 50,000 employees and serves CXOs, IT, security, and data leaders globally.
+  Backed by Mayfield, the company operates a public trust center (SafeBase by Drata)
+  attesting SOC 2 Type 2, ISO/IEC 27001:2022, and ISO/IEC 42001:2023. This is a
+  company/provider record in the API Evangelist network; Gruve is a services and
+  platform provider and does not currently publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/gruve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - mayfield
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-from-portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://gruve.ai/wp-content/uploads/2026/01/gruve-logo-white-tagline.svg
 tags:
 - Company
+- Artificial Intelligence
+- AI Infrastructure
+- Cybersecurity
+- Security Operations
+- Digital Forensics
+- Data and AI
+- Customer Experience
+- Salesforce
+- Enterprise Services
+- Managed Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,26 @@ maintainers:
 common:
 - type: Website
   url: https://gruve.ai
+- type: Blog
+  url: https://gruve.ai/blog/
+- type: About
+  url: https://gruve.ai/about-us/
+- type: Support
+  url: https://gruve.ai/contact-us/
+- type: TermsOfService
+  url: https://gruve.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://gruve.ai/privacy-policy/
+- type: TrustCenter
+  url: security/gruve-trust-center.yml
+- type: Compliance
+  url: https://trust.gruve.ai/
+- type: DomainSecurity
+  url: security/gruve-domain-security.yml
+- type: LLMsTxt
+  url: llms/gruve-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
